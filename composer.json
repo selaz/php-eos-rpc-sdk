@@ -1,5 +1,5 @@
 {
-    "name": "manamine/php-eos-rpc-sdk",
+    "name": "selaz/php-eos-rpc-sdk",
     "description": "PHP SDK for the EOS RPC API",
     "type": "library",
     "keywords": ["php","eos","rpc","sdk","api","crypto","blockchain"],
@@ -13,7 +13,7 @@
         }
     ],
     "require": {
-        "guzzlehttp/guzzle": "~6.0",
+        "guzzlehttp/guzzle": "^6.0|^7.0|^8.0",
         "vlucas/phpdotenv": "^2.4",
         "php-curl-class/php-curl-class": "^8.1"
     },
